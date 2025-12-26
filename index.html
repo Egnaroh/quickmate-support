@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="QuickMate - 快捷指令自动化工具技术支持">
+    <title>QuickMate 技术支持</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #007AFF 0%, #5856D6 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.95;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #007AFF;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #007AFF;
+        }
+
+        .faq-item {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 15px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .faq-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .faq-question {
+            font-weight: 600;
+            color: #007AFF;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .faq-answer {
+            color: #666;
+            line-height: 1.8;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .contact-box h3 {
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        .contact-email {
+            display: inline-block;
+            background: white;
+            color: #007AFF;
+            padding: 12px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s;
+            margin-top: 10px;
+        }
+
+        .contact-email:hover {
+            transform: scale(1.05);
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .feature-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .feature-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .feature-title {
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .feature-desc {
+            color: #666;
+            font-size: 0.95em;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .version-info {
+            background: #e3f2fd;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #007AFF;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            header {
+                padding: 40px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">⚡️</div>
+            <h1>QuickMate</h1>
+            <p class="subtitle">快捷指令自动化工具 - 技术支持</p>
+        </header>
+
+        <div class="content">
+            <!-- 应用介绍 -->
+            <section class="section">
+                <h2>📱 关于 QuickMate</h2>
+                <p>QuickMate 是一款专业的快捷指令自动化工具，支持定时任务、间隔执行、网页监控等功能，帮助您提升工作效率。</p>
+
+                <div class="version-info">
+                    <strong>当前版本：</strong> 1.0.1<br>
+                    <strong>系统要求：</strong> iOS 15.0 或更高版本<br>
+                    <strong>支持设备：</strong> iPhone、iPad
+                </div>
+            </section>
+
+            <!-- 核心功能 -->
+            <section class="section">
+                <h2>✨ 核心功能</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">⏰</div>
+                        <div class="feature-title">定时执行</div>
+                        <div class="feature-desc">指定时间自动运行快捷指令</div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔄</div>
+                        <div class="feature-title">间隔执行</div>
+                        <div class="feature-desc">按设定间隔重复执行任务</div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🌐</div>
+                        <div class="feature-title">网页监控</div>
+                        <div class="feature-desc">检测网页变化自动触发</div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <div class="feature-title">数据分析</div>
+                        <div class="feature-desc">任务执行统计和可视化</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 常见问题 -->
+            <section class="section">
+                <h2>❓ 常见问题</h2>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: 如何创建定时任务？</div>
+                    <div class="faq-answer">
+                        A: 打开QuickMate → 任务管理 → 点击"+"按钮 → 选择快捷指令 → 设置执行条件为"定时执行" → 选择时间 → 保存并启用任务。
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: 任务不执行怎么办？</div>
+                    <div class="faq-answer">
+                        A: 请检查：<br>
+                        1. 任务是否已启用（开关为绿色）<br>
+                        2. 监控状态是否开启（监控状态页面）<br>
+                        3. 应用是否有必要的权限（通知权限等）<br>
+                        4. 快捷指令是否正确配置
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: 网页监控如何使用？</div>
+                    <div class="faq-answer">
+                        A: 创建任务时选择"网页监控"类型，输入要监控的URL，设置检查间隔，配置触发的快捷指令。当网页内容发生变化时，系统会自动执行指定的快捷指令。
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: 应用是否收集个人数据？</div>
+                    <div class="faq-answer">
+                        A: 不收集。QuickMate 所有数据都存储在您的设备本地，不上传到任何服务器。我们重视您的隐私，不收集任何个人信息。
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: 支持后台运行吗？</div>
+                    <div class="faq-answer">
+                        A: QuickMate 使用iOS系统的后台任务框架，在系统允许的范围内支持后台执行。但受iOS系统限制，长时间后台可能会被系统暂停。建议定期打开应用以确保任务正常执行。
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: 如何导出任务配置？</div>
+                    <div class="faq-answer">
+                        A: 进入配置页面，找到"数据管理"部分，可以导出所有任务配置为JSON文件，便于备份或迁移到其他设备。
+                    </div>
+                </div>
+            </section>
+
+            <!-- 使用技巧 -->
+            <section class="section">
+                <h2>💡 使用技巧</h2>
+
+                <div class="faq-item">
+                    <div class="faq-answer">
+                        <strong>1. 合理设置检查间隔</strong><br>
+                        过短的间隔会增加电池消耗，建议根据实际需求设置。日常监控建议5-10分钟，紧急监控可设置1-3分钟。
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-answer">
+                        <strong>2. 使用任务分组</strong><br>
+                        将相关的任务归为一组，便于管理和批量操作。
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-answer">
+                        <strong>3. 定期查看执行日志</strong><br>
+                        在监控状态页面可以查看详细的执行日志，帮助排查问题和优化任务配置。
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-answer">
+                        <strong>4. 利用数据分析</strong><br>
+                        数据分析页面提供了任务执行统计，帮助您了解自动化效果，优化工作流程。
+                    </div>
+                </div>
+            </section>
+
+            <!-- 联系支持 -->
+            <section class="section">
+                <div class="contact-box">
+                    <h3>📧 需要帮助？</h3>
+                    <p>如果您遇到问题或有任何建议，欢迎通过邮件联系我们</p>
+                    <a href="mailto:support@quickmate.app" class="contact-email">
+                        support@quickmate.app
+                    </a>
+                    <p style="margin-top: 20px; font-size: 0.9em; opacity: 0.9;">
+                        我们通常会在24小时内回复您的邮件
+                    </p>
+                </div>
+            </section>
+
+            <!-- 系统要求 -->
+            <section class="section">
+                <h2>⚙️ 系统要求</h2>
+                <div class="faq-answer">
+                    <strong>最低系统版本：</strong> iOS 15.0<br>
+                    <strong>推荐系统版本：</strong> iOS 16.0 或更高<br>
+                    <strong>存储空间：</strong> 至少 500MB 可用空间<br>
+                    <strong>网络：</strong> 网页监控功能需要网络连接<br>
+                    <strong>权限：</strong> 通知权限（用于任务提醒）
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 QuickMate. All rights reserved.</p>
+            <p style="margin-top: 10px; font-size: 0.9em; opacity: 0.8;">
+                让自动化触手可及
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
